@@ -295,7 +295,7 @@ h1 {
         font-size: 25px; /* Bigger font size */
         color: #008000;
         margin: 5px;
-        font-family: "Termina";
+        font-family: "Termina", serif;
         border-right: #FFA500 solid 3px;
         padding-right: 10px; /* Smaller padding */
         margin-top: 10px; /* Reset margin */
