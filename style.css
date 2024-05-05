@@ -295,17 +295,20 @@ h1 {
         font-size: 25px; /* Bigger font size */
         color: #008000;
         margin: 5px;
-        font-family: "Termina", serif;
         border-right: #FFA500 solid 3px;
         padding-right: 10px; /* Smaller padding */
         margin-top: 10px; /* Reset margin */
         padding-right: 25px; /* Reset padding */
     }
 
+    .logotext, 
+    .brand {
+        font-family: "Termina",
+    }
+
     .brand {
         font-size: 15px; /* Smaller font size */
         color: #0B6623;
-        font-family: "Robotop";
         margin-top: 10px; /* Space out from the logo */
         padding-left: 15px; /* Add padding to separate from image */
     }
@@ -325,6 +328,7 @@ h1 {
         padding: 1px 1px; /* Smaller padding */
         font-size: 8px; /* Bigger font size */
         font-weight: bold;
+        text-align: center;
     }
 
     .menu a:hover {
@@ -332,14 +336,14 @@ h1 {
     }
 
     .akwaba {
-        font-size: 1.5em; /* Smaller font size */
+        font-size: 1.2em; /* Smaller font size */
         color: orange;
         text-align: center;
         font-family: Termina;
     }
 
     .venez {
-        font-size: 1em;
+        font-size: 0.7em;
         color: #008000;
         text-align: center;
     }
