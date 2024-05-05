@@ -285,7 +285,7 @@ h1 {
     }
 
     .image {
-        width: 50px; /* Smaller height */
+        height: 150px; /* Smaller height */
         margin: 0px;
         margin-top: 10px;
     }
