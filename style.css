@@ -316,11 +316,7 @@ h1 {
         background-size: cover;
     }
 
-
-    .header {
-    display: flex;
-    }
-
+    .header,
     .logo {
         display: flex;
         align-items: center;
@@ -335,7 +331,6 @@ h1 {
         font-size: 15px;
         color: #008000;
         margin: 5px;
-        text align: left;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
         padding-right: 20px; /* Add padding to separate from image */
@@ -349,18 +344,17 @@ h1 {
         padding-left: 40px; /* Add padding to separate from image */
     }
 
-    
     .logotext,
     .brand {
-     margin-right: 0;
-     padding-right: 0;
+        margin-right: 0;
+        padding-right: 0;
     }
-    
+
     .menu {
         flex-direction: column;
-        align-items: center;
+        align-items: right;
     }
-    
+
     .menu li {
         margin: 10px 0;
     }
