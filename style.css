@@ -329,7 +329,7 @@ h1 {
         margin: 2px;
     }
 
-    .logo-text {
+    .logotext {
         font-size: 12px; /* Bigger font size */
         color: #008000;
         margin: 5px;
@@ -375,7 +375,7 @@ h1 {
     }
 
     h1 {
-        font-size: 1.2em; /* Smaller font size */
+        font-size: 15px; /* Smaller font size */
     }
 }
 
