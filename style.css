@@ -136,7 +136,7 @@ h1 {
     color: orange;
     text-align: center;
     font-family: Termina;
-    font-size: 15px;
+    font-size: 2.2em;
 }
 
 .text-and-image-container {
@@ -345,13 +345,14 @@ h1 {
         color: #0B6623;
         font-family: "Robotop";
         margin-right: 0px; /* Space out from the logo */
-        padding-left: 0px; /* Add padding to separate from image */
+        padding-left: 5px; /* Add padding to separate from image */
     }
 
     .menu {
         display: flex;
         justify-content: space-between; /* Align items to left and right */
         flex-wrap: wrap; /* Allow items to wrap to the next line */
+        flex-direction: row;
     }
 
     .menu button {
@@ -376,6 +377,9 @@ h1 {
 
     h1 {
         font-size: 15px; /* Smaller font size */
+        color: orange;
+        text-align: center;
+        font-family: Termina;
     }
 }
 
