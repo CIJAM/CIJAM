@@ -338,7 +338,7 @@ h1 {
         border-right: #FFA500 solid 3px;
         padding-right: 10px; /* Smaller padding */
         margin-top: 10px; /* Reset margin */
-        padding-right: 0; /* Reset padding */
+        padding-right: 25px; /* Reset padding */
     }
 
     .brand {
