@@ -325,27 +325,27 @@ h1 {
     }
 
     .image {
-        height: 40px; /* Smaller height */
+        height: 50px; /* Smaller height */
         margin: 2px;
     }
 
     .logotext {
-        font-size: 12px; /* Bigger font size */
+        font-size: 18px; /* Bigger font size */
         color: #008000;
         margin: 5px;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
-        padding-right: 5px; /* Smaller padding */
+        padding-right: 10px; /* Smaller padding */
         margin-right: 0; /* Reset margin */
         padding-right: 0; /* Reset padding */
     }
 
     .brand {
-        font-size: 10px; /* Smaller font size */
+        font-size: 14px; /* Smaller font size */
         color: #0B6623;
         font-family: "Robotop";
         margin-right: 0px; /* Space out from the logo */
-        padding-left: 5px; /* Add padding to separate from image */
+        padding-left: 10px; /* Add padding to separate from image */
     }
 
     .menu {
@@ -357,7 +357,7 @@ h1 {
 
     .menu button {
         margin: 5px; /* Smaller margin */
-        padding: 3px 7px; /* Smaller padding */
+        padding: 2px 6px; /* Smaller padding */
         font-size: 10px; /* Smaller font size */
     }
 
@@ -366,8 +366,8 @@ h1 {
     }
 
     .menu a {
-        padding: 3px 7px; /* Smaller padding */
-        font-size: 10px; /* Bigger font size */
+        padding: 1px 3px; /* Smaller padding */
+        font-size: 12px; /* Bigger font size */
         font-weight: bold;
     }
 
@@ -375,8 +375,8 @@ h1 {
         color: #FFFFFF; /* Change text color to white on hover */
     }
 
-    h1 {
-        font-size: 15px; /* Smaller font size */
+    .akwaba {
+        font-size: 2.2em; /* Smaller font size */
         color: orange;
         text-align: center;
         font-family: Termina;
