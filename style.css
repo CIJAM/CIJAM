@@ -305,37 +305,21 @@ h1 {
 
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
     .container {
         padding: 0;
     }
     
-    .menu {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end; /* Adjusted alignment */
+    #navbar {
+        padding: 0.5% 0;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
+        background-size: contain; /* Adjusted background size */
+        background-repeat: no-repeat; /* Prevent background image from repeating */
+        background-position: center; /* Center the background image */
     }
 
-    .menu button {
-        margin: 5px 0; /* Smaller margin */
-        padding: 5px 8px; /* Smaller padding */
-        font-size: 12px; /* Smaller font size */
-    }
-
-    .menu ul {
-        margin: 0; /* Reset margin */
-    }
-
-    .menu a {
-        padding: 5px 8px; /* Smaller padding */
-        font-weight: bold;
-    }
-
-    .menu a:hover {
-        color: #FFFFFF; /* Change text color to white on hover */
-    }
-
-    .header, .logo {
+    .header,
+    .logo {
         display: flex;
         align-items: center;
     }
@@ -345,37 +329,53 @@ h1 {
         margin: 2px;
     }
 
-  .image {
-        height: 40px;
-        margin: 2px;
-    }
-
-    .logotext {
-        font-size: 15px;
+    .logo-text {
+        font-size: 18px; /* Bigger font size */
         color: #008000;
         margin: 5px;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
-        padding-right: 20px; /* Add padding to separate from image */
+        padding-right: 10px; /* Smaller padding */
+        margin-right: 0; /* Reset margin */
+        padding-right: 0; /* Reset padding */
     }
 
     .brand {
-        font-size: 10px;
+        font-size: 12px; /* Smaller font size */
         color: #0B6623;
         font-family: "Robotop";
         margin-right: 20px; /* Space out from the logo */
         padding-left: 40px; /* Add padding to separate from image */
     }
 
+    .menu {
+        display: flex;
+        justify-content: space-between; /* Align items to left and right */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .menu button {
+        margin: 5px; /* Smaller margin */
+        padding: 5px 10px; /* Smaller padding */
+        font-size: 10px; /* Smaller font size */
+    }
+
+    .menu ul {
+        margin: 0; /* Reset margin */
+    }
+
+    .menu a {
+        padding: 5px 10px; /* Smaller padding */
+        font-size: 14px; /* Bigger font size */
+        font-weight: bold;
+    }
+
+    .menu a:hover {
+        color: #FFFFFF; /* Change text color to white on hover */
+    }
 
     h1 {
         font-size: 1.2em; /* Smaller font size */
-    }
-
-    #navbar {
-        padding: 0.5% 0;
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
-        background-size: cover;
     }
 }
 
