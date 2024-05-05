@@ -325,27 +325,27 @@ h1 {
     }
 
     .image {
-        height: 30px; /* Smaller height */
+        height: 40px; /* Smaller height */
         margin: 2px;
     }
 
     .logo-text {
-        font-size: 18px; /* Bigger font size */
+        font-size: 12px; /* Bigger font size */
         color: #008000;
         margin: 5px;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
-        padding-right: 10px; /* Smaller padding */
+        padding-right: 5px; /* Smaller padding */
         margin-right: 0; /* Reset margin */
         padding-right: 0; /* Reset padding */
     }
 
     .brand {
-        font-size: 12px; /* Smaller font size */
+        font-size: 10px; /* Smaller font size */
         color: #0B6623;
         font-family: "Robotop";
-        margin-right: 20px; /* Space out from the logo */
-        padding-left: 40px; /* Add padding to separate from image */
+        margin-right: 0px; /* Space out from the logo */
+        padding-left: 0px; /* Add padding to separate from image */
     }
 
     .menu {
@@ -356,7 +356,7 @@ h1 {
 
     .menu button {
         margin: 5px; /* Smaller margin */
-        padding: 5px 10px; /* Smaller padding */
+        padding: 3px 7px; /* Smaller padding */
         font-size: 10px; /* Smaller font size */
     }
 
@@ -365,8 +365,8 @@ h1 {
     }
 
     .menu a {
-        padding: 5px 10px; /* Smaller padding */
-        font-size: 14px; /* Bigger font size */
+        padding: 3px 7px; /* Smaller padding */
+        font-size: 10px; /* Bigger font size */
         font-weight: bold;
     }
 
