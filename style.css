@@ -312,7 +312,7 @@ h1 {
     
     .menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-end; /* Adjusted alignment */
     }
 
@@ -345,16 +345,28 @@ h1 {
         margin: 2px;
     }
 
-    .logo-text, .brand {
-        font-size: 12px; /* Smaller font size */
+  .image {
+        height: 40px;
+        margin: 2px;
+    }
+
+    .logotext {
+        font-size: 15px;
         color: #008000;
         margin: 5px;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
-        padding-right: 10px; /* Smaller padding */
-        margin-right: 0; /* Reset margin */
-        padding-right: 0; /* Reset padding */
+        padding-right: 20px; /* Add padding to separate from image */
     }
+
+    .brand {
+        font-size: 10px;
+        color: #0B6623;
+        font-family: "Robotop";
+        margin-right: 20px; /* Space out from the logo */
+        padding-left: 40px; /* Add padding to separate from image */
+    }
+
 
     h1 {
         font-size: 1.2em; /* Smaller font size */
