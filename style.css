@@ -67,7 +67,7 @@ body {
     justify-content: flex-end; /* Align items to the right */
 }
 
-.menu li {
+.menu button {
     margin-left: 30px; /* Adjust margin as needed */
 }
 
@@ -355,7 +355,7 @@ h1 {
         align-items: right;
     }
 
-    .menu li {
+    .menu button {
         margin: 10px 0;
     }
 }
