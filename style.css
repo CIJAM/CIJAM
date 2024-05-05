@@ -315,11 +315,45 @@ h1 {
         background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
         background-size: cover;
     }
+
+
+    .header {
+    display: flex;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .image {
+        height: 40px;
+        margin: 2px;
+    }
+
+    .logotext {
+        font-size: 15px;
+        color: #008000;
+        margin: 5px;
+        text align: left;
+        font-family: "Termina";
+        border-right: #FFA500 solid 3px;
+        padding-right: 20px; /* Add padding to separate from image */
+    }
+
+    .brand {
+        font-size: 10px;
+        color: #0B6623;
+        font-family: "Robotop";
+        margin-right: 20px; /* Space out from the logo */
+        padding-left: 40px; /* Add padding to separate from image */
+    }
+
     
     .logotext,
     .brand {
-        margin-right: 0;
-        padding-right: 0;
+     margin-right: 0;
+     padding-right: 0;
     }
     
     .menu {
