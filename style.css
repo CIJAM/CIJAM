@@ -305,27 +305,29 @@ h1 {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .container {
         padding: 0;
     }
+    
     .menu {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end; /* Adjusted alignment */
     }
 
     .menu button {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 5px 0; /* Smaller margin */
+        padding: 5px 8px; /* Smaller padding */
+        font-size: 12px; /* Smaller font size */
     }
 
     .menu ul {
-        margin-left: 0;
+        margin: 0; /* Reset margin */
     }
 
     .menu a {
-        padding: 8px 12px; /* Increase padding for better clickability */
+        padding: 5px 8px; /* Smaller padding */
         font-weight: bold;
     }
 
@@ -333,91 +335,35 @@ h1 {
         color: #FFFFFF; /* Change text color to white on hover */
     }
 
-    .header,
-    .logo {
+    .header, .logo {
         display: flex;
         align-items: center;
     }
 
     .image {
-        height: 40px;
+        height: 30px; /* Smaller height */
         margin: 2px;
     }
 
-    .logo-text {
-        font-size: 15px;
+    .logo-text, .brand {
+        font-size: 12px; /* Smaller font size */
         color: #008000;
         margin: 5px;
         font-family: "Termina";
         border-right: #FFA500 solid 3px;
-        padding-right: 20px; /* Add padding to separate from image */
-    }
-
-    .brand {
-        font-size: 10px;
-        color: #0B6623;
-        font-family: "Robotop";
-        margin-right: 20px; /* Space out from the logo */
-        padding-left: 40px; /* Add padding to separate from image */
-    }
-
-    .logo-text,
-    .brand {
-        margin-right: 0;
-        padding-right: 0;
+        padding-right: 10px; /* Smaller padding */
+        margin-right: 0; /* Reset margin */
+        padding-right: 0; /* Reset padding */
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.2em; /* Smaller font size */
     }
-    
+
     #navbar {
         padding: 0.5% 0;
         background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
         background-size: cover;
-    }
-
-    .header,
-    .logo {
-        display: flex;
-        align-items: center;
-    }
-
-    .image {
-        height: 40px;
-        margin: 2px;
-    }
-
-    .logotext {
-        font-size: 15px;
-        color: #008000;
-        margin: 5px;
-        font-family: "Termina";
-        border-right: #FFA500 solid 3px;
-        padding-right: 20px; /* Add padding to separate from image */
-    }
-
-    .brand {
-        font-size: 10px;
-        color: #0B6623;
-        font-family: "Robotop";
-        margin-right: 20px; /* Space out from the logo */
-        padding-left: 40px; /* Add padding to separate from image */
-    }
-
-    .logotext,
-    .brand {
-        margin-right: 0;
-        padding-right: 0;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: right;
-    }
-
-    .menu button {
-        margin: 10px 0;
     }
 }
 
